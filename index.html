@@ -13,7 +13,83 @@
     
   </head>
   <body>
+    <div class="container-fluid mt-4">
+        <div class="row justify-content-end">
+            <div class="col-sm-10">
+                <form action="" class="form-inline">
+                    <div class="form-group mr-3">
+                        <input type="email" placeholder="Enter Email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group mr-3">
+                        <input type="password" placeholder="Enter Password" id="password" name="password" class="form-control">
+                    </div>
+                    <input type="submit" value="Login" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <h1 class="text-center">Example Form</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
 
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">Select Your Country</label>
+                        <select class="form-control" name="country" id="country">
+                            <option value="">--Select--</option>
+                            <option value="pk">Pakistan</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ksa">Kingdom of Saudia Arabia</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="intro">Write your introduction</label>
+                        <textarea name="intro" rows="10" id="intro"class="form-control">
+
+                        </textarea>
+                    </div>
+                    <label for="">Select Admission Preference</label><br>
+                    <div class="form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label for="Preference" class="form-check-label">Software Engineering</label>
+                        
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label for="Preference" class="form-check-label">Computer Science</label>
+                        
+                    </div>
+
+                    <br>
+                    <div class="form-check">
+                     
+                        <input type="radio" name="gender" id="gender" value="male">
+                        <label for="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="gender" value="female">
+                        <label for="form-check-label">Female</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pic">Upload your Image</label>
+                        <input type="file" class="form-control-file" id="pic" name="pic">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
